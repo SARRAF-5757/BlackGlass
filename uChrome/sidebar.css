@@ -1,0 +1,15 @@
+/* Only show extension & reload button on hover */
+/#unified-extensions-button:not(:hover) {
+  image {
+    opacity: 0 !important;
+  }
+}
+#reload-button:not(:hover) {
+  image {
+    opacity: 0 !important;
+  }
+}
+
+/* #zen-workspaces-button {
+    visibility: hidden !important;
+} */

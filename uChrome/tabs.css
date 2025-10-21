@@ -1,0 +1,88 @@
+/* ------------------- Tab Backgrounds ------------------- */
+.tabbrowser-tab {
+    .tab-background {
+        border-radius: 13px !important;
+        position: relative !important;
+        box-shadow: 0 0 3px transparent !important;
+        transition:
+            background-color 0.3s ease,
+            box-shadow 0.3s ease !important;
+    }
+
+    /* ----- Pinned tabs ----- */
+    /* &[pinned] .tab-background {
+        background-color: rgba(0, 0, 0, 0.1) !important;
+    } */
+
+    /* ----- Hover state ----- */
+    &:is([pinned], :not([pinned])):hover .tab-background {
+        background-color: rgba(0,0,0,0.2) !important;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.55) !important;
+    }
+
+    /* ----- Selected state ----- */
+    &:is([pinned], :not([pinned])):is([selected="true"], [visuallyselected="true"]) .tab-background {
+        background-color: rgba(0,0,0,0.4) !important;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.55) !important;
+    }
+}
+
+/* ------------------- Essentials Backgrounds ------------------- */
+.zen-essentials-container .tabbrowser-tab {
+    .tab-background {
+        background-color: rgba(0, 0, 0, 0.2) !important;
+        box-shadow: 0 0px 3px transparent !important;
+        border-radius: 14px !important;
+    }
+    &:hover .tab-background {
+        background-color: rgba(0, 0, 0, 0.4) !important;
+        box-shadow: 0 0px 3px transparent !important;
+    }
+    &[selected],
+    &[visuallyselected] {
+        .tab-icon-image {
+            filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.6)) !important;
+        }
+
+        > .tab-stack > .tab-background {
+            border: none !important;
+            &::before {
+                opacity: 0 !important;
+            }
+            &::after {
+                filter: brightness(50%) blur(15px) !important;
+            }
+        }
+    }
+}
+
+/* ------------------- New Tab Button Styling ------------------- */
+#tabs-newtab-button.toolbarbutton-1 {
+    position: relative;
+    background: transparent !important;
+    border: none;
+    box-shadow: 0 0 3px transparent !important;
+}
+
+#tabs-newtab-button.toolbarbutton-1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 13px !important;
+    background-color: transparent;
+    box-shadow: 0 0 3px transparent !important;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease !important;
+    pointer-events: none;
+    z-index: -1;
+}
+
+#tabs-newtab-button.toolbarbutton-1:hover::before {
+    background-color: rgba(0,0,0,0.2) !important;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.55) !important;
+}
+
+/* Dim uUnloaded Tabs */
+.tab-icon-image[pending="true"] {
+    filter: grayscale(80%) brightness(60%) !important;
+    opacity: 0.3 !important;
+}

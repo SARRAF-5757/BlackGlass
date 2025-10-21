@@ -1,0 +1,27 @@
+/* Clean up URL bar */
+#identity-icon-box {
+    visibility: hidden !important;
+    display: none !important;
+}
+#page-action-buttons {
+    visibility: hidden !important;
+    display: none !important;
+}
+
+
+/* Centered Urlbar and Searchbar */
+#urlbar-input,
+.urlbar-input,
+#urlbar .urlbar-input,
+.urlbar-input.textbox-input {
+    text-align: center !important;
+    direction: ltr !important;
+    padding-left: 0.25em !important;
+    padding-right: 0.25em !important;
+}
+#urlbar-input::placeholder,
+.urlbar-input::placeholder {
+    text-align: center !important;
+    opacity: 0 !important;
+}
+
