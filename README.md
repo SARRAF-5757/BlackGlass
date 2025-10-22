@@ -16,6 +16,7 @@ This is not a complete skin. I personally use (well-maintained) zen mods and fee
 - [Bookmark Toolbar Tweaks](https://zen-browser.app/mods/ea1a5ace-f698-4b45-ab88-6e8bd3a563f0/?q=Bookmark)
 - [Quietify (nice media playing indicator)](https://zen-browser.app/mods/fd24f832-a2e6-4ce9-8b19-7aa888eb7f8e/?q=quietif)
 - [Superpins](https://zen-browser.app/mods/ad97bb70-0066-4e42-9b5f-173a5e42c6fc/?q=Super)
+- [hide-scrollbars](https://addons.mozilla.org/en-US/firefox/addon/hide-scrollbars/)
 
 ## To Replicate
 

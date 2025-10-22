@@ -1,0 +1,15 @@
+{
+  "id": "BlackGlass",
+  "homepage": "https://github.com/SARRAF-5757/BlackGlass.git",
+  "author": "SARRAF-5757",
+  "name": "BlackGlass",
+  "description": "An opinionated minimal skin for the Zen Browser ",
+  "version": "1.0",
+  "readme": "https://github.com/SARRAF-5757/BlackGlass/blob/main/README.md",
+  "style": {
+    "chrome": "https://github.com/SARRAF-5757/BlackGlass/blob/main/BlackGlassChrome.css",
+    "content": "https://github.com/SARRAF-5757/BlackGlass/blob/main/BlackGlassContent.css"
+  },
+  "tags": ["content", "chrome", "glass", "minimal"],
+  "fork": ["zen"]
+}
