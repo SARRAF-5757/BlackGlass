@@ -22,7 +22,7 @@ This is not a complete skin. I personally use (well-maintained) zen mods and fee
 # To Replicate
 
 1. Install [Sine](https://github.com/CosmoCreeper/Sine)
-2. go to the mods tab
+2. go to the mods tab in your browser's settings
 3. In the box under "or, add your own locally from a GitHub repo.", type in `SARRAF-5757/BlackGlass` and hit install
 4. Enjoy!
 
