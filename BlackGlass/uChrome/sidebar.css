@@ -3,13 +3,3 @@
     opacity: 0 !important;
   }
 }
-
-#zen-toggle-compact-mode-button:not(:hover) {
-  image {
-    opacity: 0 !important;
-  }
-}
-
-/* #zen-workspaces-button {
-    visibility: hidden !important;
-} */
