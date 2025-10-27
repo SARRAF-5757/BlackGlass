@@ -246,7 +246,7 @@ html:has(#viewerContainer) {
   #sidebarContainer {
     background: var(--natsumi-glass-background) !important;
     backdrop-filter: blur(5px);
-    border-radius: 10px;
+    border-radius: 20px;
   }
 
   #toolbarContainer {
@@ -254,12 +254,12 @@ html:has(#viewerContainer) {
     top: 5px !important;
     left: 50% !important;
     transform: translate(-50%, 0);
-    width: calc(100% - 10px) !important;
+    width: calc(100%) !important;
     max-width: min(
       var(--natsumi-pdfjs-topbar-max-width),
-      calc(100% - 10px)
+      calc(100%)
     ) !important;
-    border-radius: 10px;
+    border-radius: 20px;
     padding-top: 5px !important;
     padding-bottom: 5px !important;
     height: calc(var(--toolbar-height) + 10px) !important;
