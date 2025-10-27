@@ -1,14 +1,15 @@
-## Why?
+# Why?
 
 There are a lot of zen browser skins out there but none of them give me all the things I want exactly. And some skins just break fundamental functionalities of the browser due to them not being maintained anymore. So I tried (almost) all of them and gathered bits and pieces from each that I liked along with some of my own redesigns to create BlackGlass.
 
-## What is BlackGlass?
+# What is BlackGlass?
 
-As the name suggests, this theme is designed to only look a certain way. Transparent with dark overlays (sorry light mode fans) with the unified sidebar mode. No other configuration is guaranteed to look good. My goal is to keep the tweaks as minimal as possible (most of them are transparency related) so that it is easy for me to maintain with the changes Zen devs decide to push out.
+As the name suggests, this theme is designed and maintained to only work with a certain layout and look a certain way. Transparent with dark overlays (sorry light mode fans) with the unified sidebar mode on the right. No other configuration is guaranteed to look good. My goal is to keep the tweaks as minimal as possible (most of them are transparency related) so that it is easy for me to maintain with the changes Zen devs decide to push out.
+I may add some settings toggles through Sine mods in the future (if I feel like it)
 
-## Dependencies
+# Dependencies
 
-This is not a complete skin. I personally use (well-maintained) zen mods and feel that it's unnecessary to bake them into my skin when it already exists as a standalone. So if you want the complete look, you'll have to instal and configure the following mods-
+This is not a complete skin. I personally use (well-maintained) zen mods and feel that it's unnecessary to bake them into my skin when it already exists as a standalone. So if you want the complete look, you'll have to install and configure the following mods-
 
 - [Transparent Zen](https://zen-browser.app/mods/642854b5-88b4-4c40-b256-e035532109df/?q=transparent)
 - [Zen Internet (for transparent websites)](https://addons.mozilla.org/en-US/firefox/addon/zen-internet/)
@@ -18,7 +19,7 @@ This is not a complete skin. I personally use (well-maintained) zen mods and fee
 - [Superpins](https://zen-browser.app/mods/ad97bb70-0066-4e42-9b5f-173a5e42c6fc/?q=Super)
 - [hide-scrollbars](https://addons.mozilla.org/en-US/firefox/addon/hide-scrollbars/)
 
-## To Replicate
+# To Replicate
 
 (To be typed...)
 
