@@ -256,7 +256,7 @@ html:has(#viewerContainer) {
     transform: translate(-50%, 0);
     width: calc(100% - 10px) !important;
     max-width: min(
-      calc(var(--natsumi-pdfjs-topbar-max-width) + 10px),
+      calc(var(--natsumi-pdfjs-topbar-max-width) + 40px),
       calc(100% - 10px)
     ) !important;
     border-radius: 20px;
