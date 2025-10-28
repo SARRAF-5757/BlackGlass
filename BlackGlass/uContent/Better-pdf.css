@@ -15,7 +15,7 @@
   transform: translate(-50%, 0);
   width: calc(100% - 10px) !important;
   max-width: min(
-    var(--natsumi-pdfjs-topbar-max-width),
+    var(--natsumi-pdfjs-topbar-max-width + 10px),
     calc(100% - 10px)
   ) !important;
   border-radius: 10px;
