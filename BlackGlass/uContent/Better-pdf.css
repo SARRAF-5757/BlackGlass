@@ -15,10 +15,10 @@
   transform: translate(-50%, 0);
   width: calc(100% - 10px) !important;
   max-width: min(
-    var(--natsumi-pdfjs-topbar-max-width + 10px),
+    var(--natsumi-pdfjs-topbar-max-width),
     calc(100% - 10px)
   ) !important;
-  border-radius: 10px;
+  border-radius: 20px;
   padding-top: 5px !important;
   padding-bottom: 5px !important;
   height: calc(var(--toolbar-height)) !important;
@@ -33,7 +33,7 @@
   left: 5px !important;
   top: auto !important;
   bottom: 5px !important;
-  border-radius: 10px !important;
+  border-radius: 20px !important;
   width: var(--sidebar-width) !important;
 }
 /* ---- Config ----- */
@@ -256,7 +256,7 @@ html:has(#viewerContainer) {
     transform: translate(-50%, 0);
     width: calc(100% - 10px) !important;
     max-width: min(
-      calc(var(--natsumi-pdfjs-topbar-max-width) + 10px),
+      calc(var(--natsumi-pdfjs-topbar-max-width) + 40px),
       calc(100% - 10px)
     ) !important;
     border-radius: 20px;
@@ -288,7 +288,7 @@ html:has(#viewerContainer) {
       right: -7px !important;
       background: var(--natsumi-glass-background) !important;
       backdrop-filter: blur(5px);
-      border-radius: 10px !important;
+      border-radius: 20px !important;
       border: 1px solid rgba(20, 20, 20, 0.2) !important;
       box-shadow: 0 0 var(--natsumi-glass-shadow-size)
         var(--natsumi-glass-shadow-color) !important;
@@ -362,7 +362,7 @@ html:has(#viewerContainer) {
     .treeItem {
       a,
       .treeItems {
-        border-radius: 5px !important;
+        border-radius: 10px !important;
         transition: background-color 0.2s ease;
       }
 
@@ -409,7 +409,7 @@ html:has(#viewerContainer) {
   }
 
   #scaleSelectContainer {
-    border-radius: 4px !important;
+    border-radius: 10px !important;
     overflow: hidden !important;
 
     select {
@@ -422,7 +422,7 @@ html:has(#viewerContainer) {
   }
 
   #pageNumber {
-    border-radius: 4px !important;
+    border-radius: 10px !important;
     overflow: hidden !important;
     background-color: #ffffff !important;
     border-color: var(--natsumi-colors-border) !important;
@@ -452,7 +452,7 @@ html:has(#viewerContainer) {
   }
 
   .toolbarButton {
-    border-radius: 6px !important;
+    border-radius: 20px !important;
     transition: background-color 0.2s ease;
 
     &:hover {
@@ -475,7 +475,7 @@ html:has(#viewerContainer) {
   #documentPropertiesDialog {
     background: var(--natsumi-glass-background) !important;
     backdrop-filter: blur(5px);
-    border-radius: 10px !important;
+    border-radius: 20px !important;
     border: 1px solid rgba(20, 20, 20, 0.2) !important;
     box-shadow: 0 0 var(--natsumi-glass-shadow-size)
       var(--natsumi-glass-shadow-color) !important;
@@ -489,7 +489,7 @@ html:has(#viewerContainer) {
     }
 
     #documentPropertiesClose {
-      border-radius: 5px !important;
+      border-radius: 10px !important;
       background-color: #f1f1f1 !important;
 
       @media (prefers-color-scheme: dark) {
