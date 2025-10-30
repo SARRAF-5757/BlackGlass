@@ -1,3 +1,23 @@
+## Just pleasant round glassiness
+<p align="center">
+  <img width="90%" src="/images/BlackGlass.png">
+</p>
+
+## Nicer PDF Viewer
+<p align="center">
+  <img width="90%" src="/images/BG PDF.png">
+</p>
+
+## Transparent Findbar
+<p align="center">
+  <img width="90%" src="/images/BGFindbar.png">
+</p>
+
+## Clean Searchbar
+<p align="center">
+  <img width="90%" src="/images/BG SearchBar.png">
+</p>
+
 # Why?
 
 There are a lot of zen browser skins out there but none of them give me all the things I want exactly. And some skins just break fundamental functionalities of the browser due to them not being maintained anymore. So I tried (almost) all of them and gathered bits and pieces from each that I liked along with some of my own redesigns to create BlackGlass.
