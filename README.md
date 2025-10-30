@@ -1,14 +1,14 @@
-## Just pleasant round glassiness
+## Just Pleasant Round Glassiness
 ![main](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/BlackGlass.png?raw=true)
 
 ## Nicer PDF Viewer
-![main](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/BG%20PDF.png?raw=true)
+![pdf image](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/BG%20PDF.png?raw=true)
 
 ## Transparent Findbar
-![main](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/BG%20Findbar.png?raw=true)
+![findbar image](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/BG%20Findbar.png?raw=true)
 
 ## Clean Searchbar
-![main](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/BG%20SearchBar.png?raw=true)
+![searchbar image](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/BG%20SearchBar.png?raw=true)
 
 # Why?
 
