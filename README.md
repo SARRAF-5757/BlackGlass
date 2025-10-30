@@ -42,6 +42,7 @@ This is not a complete skin. I personally use (well-maintained) zen mods and fee
 - [ ] Transparent sidebar in compact mode
 - [ ] No-border mod in compact mode
 - [ ] Glance buttons on the right
+- [ ] Auto hiding top section (above url bar)
 
 ### Credits
 
