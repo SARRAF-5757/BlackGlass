@@ -1,22 +1,14 @@
 ## Just pleasant round glassiness
-<p align="center">
-  <img width="90%" src="/images/BlackGlass.png">
-</p>
+![main](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/BlackGlass.png?raw=true)
 
 ## Nicer PDF Viewer
-<p align="center">
-  <img width="90%" src="/images/BG PDF.png">
-</p>
+![main](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/BG%20PDF.png?raw=true)
 
 ## Transparent Findbar
-<p align="center">
-  <img width="90%" src="/images/BGFindbar.png">
-</p>
+![main](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/BG%20Findbar.png?raw=true)
 
 ## Clean Searchbar
-<p align="center">
-  <img width="90%" src="/images/BG SearchBar.png">
-</p>
+![main](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/BG%20SearchBar.png?raw=true)
 
 # Why?
 
