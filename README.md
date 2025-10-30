@@ -38,6 +38,11 @@ This is not a complete skin. I personally use (well-maintained) zen mods and fee
 3. In the box under "or, add your own locally from a GitHub repo.", type in `SARRAF-5757/BlackGlass` and hit install
 4. Enjoy!
 
+# To-Do
+[] Transparent sidebar in compact mode
+[] No-border mod in compact mode
+[] Glance buttons on the right
+
 ### Credits
 
 I would've loved to give credits in the actual code to indicate which part is taken from which skin but it's so thoroughly mixed up that I honestly can't track it down anymore. But the tab styling was inspired by [Nebula](https://github.com/JustAdumbPrsn/Zen-Nebula), pdf viewer from [Natsumi](https://github.com/greeeen-dev/natsumi-browser), transparent sidebar in compact mode (not implemented yet) from [Arc 2.0](https://github.com/YashjitPal/Arc-2.0), and some more bits and pieces from [ZenZero](https://github.com/sameerasw/ZenZero), [Neo Zen](https://github.com/JustVibingWhileCoding/Neo-Zen?tab=readme-ov-file).
