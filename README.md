@@ -39,9 +39,9 @@ This is not a complete skin. I personally use (well-maintained) zen mods and fee
 4. Enjoy!
 
 # To-Do
-- [] Transparent sidebar in compact mode
-- [] No-border mod in compact mode
-- [] Glance buttons on the right
+- [ ] Transparent sidebar in compact mode
+- [ ] No-border mod in compact mode
+- [ ] Glance buttons on the right
 
 ### Credits
 
