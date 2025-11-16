@@ -16,7 +16,7 @@
 
 ## Transparent settings
 
-[Transparent Settings Image](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/Transparent%20Settings.png?raw=true)
+![Transparent Settings Image](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/Transparent%20Settings.png?raw=true)
 
 # Why?
 
