@@ -1,14 +1,22 @@
 ## Just Pleasant Round Glassiness
+
 ![main](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/BlackGlass.png?raw=true)
 
 ## Nicer PDF Viewer
+
 ![pdf image](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/BG%20PDF.png?raw=true)
 
 ## Transparent Findbar
+
 ![findbar image](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/BG%20Findbar.png?raw=true)
 
 ## Clean Searchbar
+
 ![searchbar image](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/BG%20SearchBar.png?raw=true)
+
+## Transparent settings
+
+[Transparent Settings Image](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/Transparent%20Settings.png?raw=true)
 
 # Why?
 
@@ -34,12 +42,16 @@ This is not a complete skin. I personally use (well-maintained) zen mods and fee
 # To Replicate
 
 1. Install [Sine](https://github.com/CosmoCreeper/Sine)
-2. go to the mods tab in your browser's settings
+2. Go to the mods tab in your browser's settings
 3. In the box under "or, add your own locally from a GitHub repo.", type in `SARRAF-5757/BlackGlass` and hit install
-4. Enjoy!
+4. Get mods mentioned in the [Dependencies](https://github.com/SARRAF-5757/BlackGlass?tab=readme-ov-file#dependencies) Section, especially Transparent zen and apply the following settings in the mod settings page (the empty tab image I used is [this](https://cdn.creazilla.com/cliparts/70068/ink-circle-clipart-lg.png))
+   [Transparent Zen Settings](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/Transparent%20Zen%20Settings.png?raw=true)
+5. Enjoy!
 
 # To-Do
-- [ ] Transparent sidebar in compact mode
+
+~~- [] Transparent sidebar in compact mode ~~ Transparent Zen Mod mentioned earlier has this so no need for me to implement it anymore :)
+
 - [ ] No-border mod in compact mode
 - [x] Glance buttons on the right
 - [ ] Auto hiding top section (above url bar)
