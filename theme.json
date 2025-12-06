@@ -7,8 +7,8 @@
   "version": "1.0",
   "readme": "https://github.com/SARRAF-5757/BlackGlass/blob/main/README.md",
   "style": {
-    "chrome": "https://raw.githubusercontent.com/SARRAF-5757/BlackGlass/main/BlackGlassChrome.css",
-    "content": "https://raw.githubusercontent.com/SARRAF-5757/BlackGlass/main/BlackGlassContent.css"
+    "chrome": "https://raw.githubusercontent.com/SARRAF-5757/BlackGlass/main/userChrome.css",
+    "content": "https://raw.githubusercontent.com/SARRAF-5757/BlackGlass/main/userContent.css"
   },
   "tags": ["content", "chrome", "glass", "minimal"],
   "fork": ["zen"]
