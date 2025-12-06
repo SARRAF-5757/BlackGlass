@@ -1,25 +1,26 @@
 /* dark reader */
 [label="Dark Reader"] image {
-	list-style-image: url("https://github.com/SARRAF-5757/.dotfiles/blob/dots/Library/Application%20Support/zen/Profiles/i4637anb.Default%20(release)/chrome/images/darkReader.png?raw=true") !important;
+  list-style-image: url("https://github.com/SARRAF-5757/BlackGlass/blob/main/BlackGlass/images/darkReader.png?raw=true") !important;
 }
 
 /* zen internet */
 [label="Zen Internet"] image {
-	list-style-image: url("https://github.com/SARRAF-5757/.dotfiles/blob/dots/Library/Application%20Support/zen/Profiles/i4637anb.Default%20(release)/chrome/images/transparent-zen.png?raw=true") !important;
+  list-style-image: url("https://github.com/SARRAF-5757/BlackGlass/blob/main/BlackGlass/images/transparent-zen.png?raw=true") !important;
 }
 
 /* Bitwarden */
 [label="Bitwarden"] image {
-	list-style-image: url("https://github.com/SARRAF-5757/.dotfiles/blob/dots/Library/Application%20Support/zen/Profiles/i4637anb.Default%20(release)/chrome/images/bitwarden.png?raw=true") !important;
+  list-style-image: url("https://github.com/SARRAF-5757/BlackGlass/blob/main/BlackGlass/images/bitwarden.png?raw=true") !important;
 }
 
 /* dark theme */
 [devtoolstheme="light"] {
-	[label="Dark Reader"],
-	[label="Zen Internet"],
-	[label="Bitwarden"] {
-		image {
-			filter: invert(0) !important;
-		}
-	}
+  [label="Dark Reader"],
+  [label="Zen Internet"],
+  [label="Bitwarden"] {
+    image {
+      filter: invert(0) !important;
+    }
+  }
 }
+
