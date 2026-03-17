@@ -1,5 +1,21 @@
-#reload-button:not(:hover) {
-  image {
-    opacity: 0 !important;
+#zen-sidebar-top-buttons {
+  .titlebar-buttonbox-container {
+    display: none !important;
   }
 }
+
+#zen-sidebar-icons-wrapper,
+#home-button {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out !important;
+
+  &:hover {
+    opacity: 1 !important;
+  }
+}
+
+/* #reload-button:not(:hover) { */
+/*   image { */
+/*     opacity: 0 !important; */
+/*   } */
+/* } */
