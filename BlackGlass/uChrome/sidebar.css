@@ -1,21 +1,33 @@
+/* Reveal sidebar top buttons on hover */
 #zen-sidebar-top-buttons {
-  .titlebar-buttonbox-container {
-    display: none !important;
-  }
+  transition: all 0.2s ease-in-out !important;
+  opacity: 1 !important;
+  margin-top: 0 !important;
+}
+
+#navigator-toolbox:not(:hover) #zen-sidebar-top-buttons {
+  margin-top: -30px !important;
+  margin-bottom: 0 !important;
+  opacity: 0 !important;
+  pointer-events: none;
 }
 
 #zen-sidebar-icons-wrapper,
 #home-button {
   opacity: 0;
-  transition: opacity 0.5s ease-in-out !important;
-
-  &:hover {
-    opacity: 1 !important;
-  }
+  transition: opacity 0.4s ease-in-out !important;
 }
 
-/* #reload-button:not(:hover) { */
-/*   image { */
-/*     opacity: 0 !important; */
-/*   } */
-/* } */
+/* Reveal on hover */
+#navigator-toolbox:hover #zen-sidebar-icons-wrapper,
+#navigator-toolbox:hover #home-button {
+  opacity: 1 !important;
+}
+
+/* prevent hiding when menu is open */
+#zen-sidebar-top-buttons:has([open="true"]),
+#zen-sidebar-top-buttons:focus-within {
+  margin-top: 0 !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}

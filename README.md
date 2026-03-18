@@ -53,7 +53,7 @@ This is not a complete skin. I personally use (well-maintained) zen mods and fee
 - [ ] <del>Transparent sidebar in compact mode</del> Transparent Zen Mod mentioned earlier has this so no need for me to implement it anymore :)
 - [ ] No-border mod in compact mode
 - [x] Glance buttons on the right
-- [ ] Auto hiding top section (above url bar)
+- [x] Auto hiding top section (above url bar)
 
 ### Credits
 
