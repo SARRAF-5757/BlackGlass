@@ -1,0 +1,17 @@
+:root[zen-compact-mode="true"] #zen-tabbox-wrapper,
+:root[zen-compact-mode="true"] #tabbrowser-tabbox,
+:root[zen-compact-mode="true"] .browserSidebarContainer {
+  margin: 0px !important;
+  padding: 0px !important;
+  border-radius: 0px !important;
+}
+:root:not([zen-compact-mode="true"]):not([customizing]) #zen-tabbox-wrapper,
+:root:not([zen-compact-mode="true"]):not([customizing]) #tabbrowser-tabbox {
+  margin: 8px !important; /* Standard Zen gap size */
+}
+:root:not([zen-compact-mode="true"]):not([customizing]) .browserSidebarContainer {
+  border-radius: 13px !important;
+}
+:root[zen-compact-mode="true"] #zen-appcontent-navbar-container {
+  padding-top: 0px !important;
+}
