@@ -5,7 +5,7 @@
   margin-top: 0 !important;
 }
 
-#zen-sidebar-icons-wrapper:not(:hover) #zen-sidebar-top-buttons {
+#navigator-toolbox:not(:hover) #zen-sidebar-top-buttons {
   margin-top: -30px !important;
   margin-bottom: 0 !important;
   opacity: 0 !important;
@@ -19,8 +19,8 @@
 }
 
 /* Reveal on hover */
-#zen-sidebar-icons-wrapper:hover #zen-sidebar-icons-wrapper,
-#zen-sidebar-icons-wrapper:hover #home-button {
+#navigator-toolbox:hover #zen-sidebar-icons-wrapper,
+#navigator-toolbox:hover #home-button {
   opacity: 1 !important;
 }
 
