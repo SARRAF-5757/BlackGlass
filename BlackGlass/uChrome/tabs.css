@@ -21,11 +21,7 @@
   }
 
   /* ----- Selected state ----- */
-  &:is([pinned], :not([pinned])):is(
-      [selected="true"],
-      [visuallyselected="true"]
-    )
-    .tab-background {
+  &:is([pinned], :not([pinned])):is([selected="true"], [visuallyselected="true"]) .tab-background {
     background-color: rgba(0, 0, 0, 0.4) !important;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.55) !important;
   }

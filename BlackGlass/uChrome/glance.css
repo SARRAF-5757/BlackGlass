@@ -1,16 +1,17 @@
 /* Move Glance buttons to the right */
 .zen-glance-sidebar-container {
-    position: fixed !important;
-    right: 0 !important;
-    top: 0 !important;
+  position: fixed !important;
+  right: 0 !important;
+  top: 0 !important;
 }
 
 /* Fade buttons when not hovered */
 .zen-glance-sidebar-container > toolbarbutton {
-    opacity: 0.2 !important;
-    transition: opacity 0.15s ease-in-out !important;
+  opacity: 0.2 !important;
+  transition: opacity 0.15s ease-in-out !important;
 }
 
 .zen-glance-sidebar-container > toolbarbutton:hover {
-    opacity: 1.0 !important;
+  opacity: 1 !important;
 }
+

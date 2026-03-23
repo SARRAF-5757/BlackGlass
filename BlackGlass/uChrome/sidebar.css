@@ -20,3 +20,4 @@
 body:has(#urlbar-container:hover) #zen-sidebar-top-buttons {
   margin-top: 0 !important;
 }
+
