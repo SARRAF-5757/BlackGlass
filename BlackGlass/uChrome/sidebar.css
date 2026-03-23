@@ -16,7 +16,7 @@
   transition: opacity 0.4s ease-in-out !important;
 }
 
-/* reveal on hovering the searchbar */
-body:has(#urlbar:hover) #zen-sidebar-top-buttons {
+/* reveal on hovering the searchbar as well */
+body:has(#urlbar-container:hover) #zen-sidebar-top-buttons {
   margin-top: 0 !important;
 }
