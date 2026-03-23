@@ -1,25 +1,22 @@
 /* Auto hide sidebar top buttons */
 #zen-sidebar-top-buttons {
   transition: all 0.2s ease-in-out !important;
-  opacity: 1 !important;
   margin-top: 0 !important;
   padding-top: 4px !important;
 }
 
 /* hide when not hovered */
 #zen-sidebar-top-buttons:not(:hover):not(:focus-within):not(:has([open="true"])) {
-  margin-top: -25px !important;
+  margin-top: -30px !important;
   margin-bottom: 0 !important;
-  opacity: 0 !important;
 }
 
 #zen-sidebar-icons-wrapper,
 #home-button {
-  opacity: 0;
   transition: opacity 0.4s ease-in-out !important;
 }
 
-/* reveal when hovered */
-#zen-sidebar-top-buttons:hover #zen-sidebar-icons-wrapper {
-  opacity: 1 !important;
+/* reveal on hovering the searchbar */
+body:has(#urlbar:hover) #zen-sidebar-top-buttons {
+  margin-top: 0 !important;
 }
