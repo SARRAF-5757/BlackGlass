@@ -33,6 +33,7 @@ This is not a complete skin. I personally use (well-maintained) zen mods and fee
 
 - [Transparent Zen](https://zen-browser.app/mods/642854b5-88b4-4c40-b256-e035532109df/?q=transparent)
 - [Zen Internet (for transparent websites)](https://addons.mozilla.org/en-US/firefox/addon/zen-internet/)
+- [No Top Sites](https://zen-browser.app/mods/e122b5d9-d385-4bf8-9971-e137809097d0/?updated=desc)
 - [Better CtrlTab Panel](https://zen-browser.app/mods/72f8f48d-86b9-4487-acea-eb4977b18f21/?q=better+c)
 - [Bookmark Toolbar Tweaks](https://zen-browser.app/mods/ea1a5ace-f698-4b45-ab88-6e8bd3a563f0/?q=Bookmark)
 - [Quietify (nice media playing indicator)](https://zen-browser.app/mods/fd24f832-a2e6-4ce9-8b19-7aa888eb7f8e/?q=quietif)
@@ -53,7 +54,7 @@ This is not a complete skin. I personally use (well-maintained) zen mods and fee
 - [ ] <del>Transparent sidebar in compact mode</del> Transparent Zen Mod mentioned earlier has this so no need for me to implement it anymore :)
 - [ ] No-border mod in compact mode
 - [x] Glance buttons on the right
-- [x] Auto hiding top section (above url bar)
+- [x] Auto hiding top section (above the URL bar)
 
 ### Credits
 
