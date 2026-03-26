@@ -6,5 +6,9 @@
 /* Change background color to dark glass */
 .urlbar-background {
   background-color: rgba(0, 0, 0, 0.25) !important;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.55) !important;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15) !important;
+}
+
+#urlbar:hover > .urlbar-background {
+  background-color: rgba(0, 0, 0, 0.35) !important;
 }
