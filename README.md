@@ -45,7 +45,7 @@ This is not a complete skin. I personally use (well-maintained) zen mods and fee
 1. Install [Sine](https://github.com/CosmoCreeper/Sine)
 2. Go to the mods tab in your browser's settings
 3. In the box under "or, add your own locally from a GitHub repo.", type in `SARRAF-5757/BlackGlass` and hit install
-4. Get mods mentioned in the [Dependencies](https://github.com/SARRAF-5757/BlackGlass?tab=readme-ov-file#dependencies) Section, especially Transparent zen and apply the following settings in the mod settings page (the empty tab image I used is [this](https://cdn.creazilla.com/cliparts/70068/ink-circle-clipart-lg.png))
+4. Get mods mentioned in the [Dependencies](https://github.com/SARRAF-5757/BlackGlass?tab=readme-ov-file#dependencies) Section, especially Transparent zen and apply the following settings in the mod settings page (the empty tab image I used is [this](https://github.com/SARRAF-5757/BlackGlass/blob/main/BlackGlass/images/zen_logo.png?raw=true))
    ![Transparent Zen Settings](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/Transparent%20Zen%20Settings.png?raw=true)
 5. Enjoy!
 

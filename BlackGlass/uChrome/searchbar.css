@@ -1,15 +1,10 @@
 /* Centered Urlbar and Searchbar */
-#urlbar-input,
-.urlbar-input,
-#urlbar .urlbar-input,
-.urlbar-input.textbox-input {
+#urlbar-input {
   text-align: center !important;
-  direction: ltr !important;
-  padding-left: 0.25em !important;
-  padding-right: 0.25em !important;
 }
-#urlbar-input::placeholder,
-.urlbar-input::placeholder {
-  text-align: center !important;
-  opacity: 0 !important;
+
+/* Change background color to dark glass */
+.urlbar-background {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.55) !important;
 }
