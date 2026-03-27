@@ -3,33 +3,38 @@
   --zen-settings-secondary-background: transparent !important;
   --_zen-scrollbar-thumb: transparent !important;
   --_zen-scrollbar-track: transparent !important;
+  --in-content-box-background: transparent !important;
+  --card-background-color: transparent !important;
 }
 
-#preferences-root {
+/* Transparent settings Page */
+#preferences-root,
+.main-content,
+#mainPrefPane,
+setting-group,
+.privacy-detailedoption {
   background-color: transparent !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
-html:has([data-l10n-id]) {
-  background-color: transparent !important;
+moz-card,
+groupbox:not(:has(moz-card)) {
+  background-color: rgba(0, 0, 0, 0.35) !important;
+  border: none !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2) !important;
+  padding: 16px !important;
 }
 
-@-moz-document url(about:config), url(about:support) {
+/* about:config and about:support */
+@-moz-document url-prefix("about:config"), url-prefix("about:support") {
   html,
-  #toolbar {
-    background-color: transparent !important;
-  }
+  #toolbar,
   tr,
   table {
     background-color: transparent !important;
     border: none !important;
   }
-  tr {
-    outline: solid 1px #0000 !important;
-  }
-}
-
-/* transparency for settings containers */
-groupbox {
-  background: rgba(0, 0, 0, 0) !important;
-  border: none;
 }

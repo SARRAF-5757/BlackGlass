@@ -12,3 +12,8 @@
 #urlbar:hover > .urlbar-background {
   background-color: rgba(0, 0, 0, 0.35) !important;
 }
+
+/* hide firefox container extension icon */
+#pageAction-urlbar-_testpilot-containers {
+  display: none !important;
+}
