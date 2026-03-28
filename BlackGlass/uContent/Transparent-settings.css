@@ -1,40 +1,146 @@
+/*!------------------ General Background Transparency -------------------*/
 :root {
   --zen-colors-tertiary: transparent !important;
   --zen-settings-secondary-background: transparent !important;
-  --_zen-scrollbar-thumb: transparent !important;
-  --_zen-scrollbar-track: transparent !important;
-  --in-content-box-background: transparent !important;
-  --card-background-color: transparent !important;
 }
 
-/* Transparent settings Page */
-#preferences-root,
-.main-content,
-#mainPrefPane,
-setting-group,
-.privacy-detailedoption {
+#preferences-root {
   background-color: transparent !important;
-  background: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
 }
 
+/*!------------------------- Settings Tiles -----------------------------*/
 moz-card,
 groupbox:not(:has(moz-card)) {
   background-color: rgba(0, 0, 0, 0.35) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+  padding: 12px !important;
   border: none !important;
-  border-radius: 12px !important;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2) !important;
-  padding: 16px !important;
 }
 
-/* about:config and about:support */
-@-moz-document url-prefix("about:config"), url-prefix("about:support") {
+/* strip background of update box */
+.info-box-container {
+  background-color: transparent !important;
+}
+
+/* hide the default browser message card (couldn't figure out how to make it transparent)*/
+moz-card:has(moz-fieldset[data-l10n-id="home-default-browser-title"]),
+moz-card:has(#isDefaultPane),
+moz-card:has(#isNotDefaultPane) {
+  display: none !important;
+}
+
+/*!--------------- Left Settings List & Appllications Card -------------------*/
+richlistbox,
+#handlersView {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border-radius: 10px !important;
+  border: none !important;
+}
+
+richlistitem[selected="true"] {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  color: rgba(255, 255, 255) !important;
+}
+
+richlistitem:hover:not([selected="true"]) {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+#handlersViewHeader,
+treecol {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border: none !important;
+}
+
+/* settings menulist specific */
+#categories richlistitem {
+  background-color: transparent !important;
+  border-radius: 8px !important;
+  margin: 9px 9px !important;
+}
+
+#categories richlistitem[selected="true"] {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+#categories richlistitem:hover:not([selected="true"]) {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* sidebar footer links (Extensions/Themes/Help) */
+.sidebar-footer-link {
+  background-color: rgba(0, 0, 0, 0.35) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  margin: 4px 9px !important;
+  padding: 8px !important;
+  text-decoration: none !important;
+}
+
+.sidebar-footer-link:hover {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/*!----------------------- Smaller Items in the Page -------------------------*/
+/* inputs and searchbars */
+input#input.with-icon {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border: none !important;
+  border-radius: 8px !important;
+}
+
+input#input.with-icon:focus {
+  outline: 2px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+/* buttons, dropdown menus and input boxes */
+@-moz-document url-prefix("about:preferences"), url-prefix("about:addons"), url-prefix("about:zen-settings") {
+  menulist,
+  .select-wrapper,
+  button:not(.button-link):not(.toggle-button):not([id="input"]):not(.panel-trigger):not(.category):not([role="menuitem"]) {
+    background-color: rgba(0, 0, 0, 0.35) !important;
+    border-radius: 8px !important;
+    padding: 4px 8px !important;
+    border: none !important;
+  }
+}
+
+button:hover:not(.toggle-button):not([id="input"]):not(.panel-trigger),
+moz-button::part(button):hover {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/*!----------------- Other settings Pages --------------------*/
+@-moz-document url-prefix("about:config"), url-prefix("about:addons"), url-prefix("about:support"), url-prefix("about:profiles") {
   html,
+  table,
   #toolbar,
-  tr,
-  table {
+  .action-box,
+  .sticky-container,
+  .main-heading,
+  .main-search {
     background-color: transparent !important;
+    border: none !important;
+  }
+
+  /* extension cards for about:addons */
+  .card {
+    background-color: rgba(0, 0, 0, 0.35) !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .card:hover {
+    background-color: rgba(0, 0, 0, 0.45) !important;
+  }
+  .card[active="true"] {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
+
+  /* search boxes for about:config and about:addons */
+  #about-config-search,
+  input[type="search"] {
+    background-color: rgba(0, 0, 0, 0.5) !important;
     border: none !important;
   }
 }
