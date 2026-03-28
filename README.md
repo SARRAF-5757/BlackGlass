@@ -51,10 +51,16 @@ This is not a complete skin. I personally use (well-maintained) zen mods and fee
 
 # To-Do
 
-- [ ] <del>Transparent sidebar in compact mode</del> Transparent Zen Mod mentioned earlier has this so no need for me to implement it anymore :)
+- [x] <del>Transparent sidebar in compact mode</del> (the Transparent Zen mod mentioned earlier recently added this)
 - [ ] No-border mod in compact mode
 - [x] Glance buttons on the right
 - [x] Auto hiding top section (above the URL bar)
+- [x] Refine transparent settings page(s)
+- [ ] Redesign the Ctrl-Tab panel (the mod's design is kinda ugly)
+- [ ] Add Sine config support (everything below will be implemented after config support is added, giving the user a choice)
+- [ ] Hide back-forward buttons to remove mod dependency
+- [ ] Bake no top sites into BlackGlass
+- [ ] Publish on Sine
 
 ### Credits
 
