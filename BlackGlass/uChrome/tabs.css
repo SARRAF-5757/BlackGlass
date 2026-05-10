@@ -16,7 +16,7 @@
 
   /* ----- Hover state ----- */
   &:is([pinned], :not([pinned])):hover .tab-background {
-    background-color: rgba(0, 0, 0, 0.2) !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.55) !important;
   }
 
@@ -30,7 +30,7 @@
 /* ------------------- Essentials Backgrounds ------------------- */
 .zen-essentials-container .tabbrowser-tab {
   .tab-background {
-    background-color: rgba(0, 0, 0, 0.2) !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
     box-shadow: 0 0px 3px transparent !important;
     border-radius: 14px !important;
   }
@@ -46,7 +46,7 @@
       box-shadow: none !important;
     }
     > .tab-stack > .tab-background {
-      background-color: rgba(0, 0, 0, 0.4) !important;
+      background-color: rgba(0, 0, 0, 0.55) !important;
       box-shadow: 0 0 3px rgba(0, 0, 0, 0.55) !important;
       border: none !important;
 
@@ -86,7 +86,7 @@
 }
 
 #tabs-newtab-button.toolbarbutton-1:hover::before {
-  background-color: rgba(0, 0, 0, 0.2) !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.55) !important;
 }
 

@@ -2,7 +2,7 @@
 
 /* Default group background */
 .tab-group-label-container::before {
-  background-color: rgba(0, 0, 0, 0.2) !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
   box-shadow: 0 0px 3px transparent !important;
   border-radius: 13px !important;
   transition:
@@ -30,7 +30,7 @@
   width: 4px;
   opacity: 0.5;
   border-radius: 5px;
-  background: rgba(255, 255, 255, 0.118);
+  background: rgba(255, 255, 255, 0.1);
   transition:
     background 0.3s ease,
     transform 0.2s ease;
@@ -107,7 +107,7 @@ zen-folder .tabbrowser-tab[pinned][selected="true"] .tab-background {
 
 /* Active / Selected / Expanded indicator for the button itself */
 zen-folder:has(> .tab-group-label-container label[aria-expanded="true"], [selected="true"], [folder-active="true"]) .tab-group-label-container::before {
-  background-color: rgba(0, 0, 0, 0.2) !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 /* Hover override for the active button */
