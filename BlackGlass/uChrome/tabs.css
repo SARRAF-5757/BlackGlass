@@ -63,6 +63,16 @@
   }
 }
 
+/* ------------------ Extension Icons (Overflow) ------------------ */
+.unified-extensions-item-action-button {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  box-shadow: 0 0px 3px transparent !important;
+}
+&:hover {
+  background-color: rgba(0, 0, 0, 0.55) !important;
+  border: none !important;
+}
+
 /* ------------------- New Tab Button Styling ------------------- */
 #tabs-newtab-button.toolbarbutton-1 {
   position: relative;

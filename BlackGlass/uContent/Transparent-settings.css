@@ -4,18 +4,37 @@
   --zen-settings-secondary-background: transparent !important;
 }
 
-#preferences-root {
+#preferences-root,
+#search-container,
+.sticky-container,
+.info-box-container,
+.container {
   background-color: transparent !important;
+  border: none !important;
 }
 
-.sticky-container {
-  background-color: transparent !important;
-  color: transparent !important;
+/*!------------------------------ Cleanup -------------------------------*/
+
+/* hide ugly blue card and useless text shown by container tab */
+.extension-controlled-message-bar {
+  display: none !important;
 }
 
-/*!------------------------- Settings Tiles -----------------------------*/
+/* remove the white divider line above extensions and themes */
+.primary-nav-group + hr,
+#secondary-nav-group ~ hr,
+hr {
+  display: none !important;
+}
+
+/*!----------------------------- Styling --------------------------------*/
+/* card-like backgrounds*/
 moz-card,
-groupbox:not(:has(moz-card)) {
+groupbox:not(:has(moz-card)),
+.primary-nav-group,
+.sidebar-footer-link,
+.page-nav-heading-wrapper,
+.moz-page-nav-link {
   background-color: rgba(0, 0, 0, 0.35) !important;
   border-radius: 14px !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
@@ -23,97 +42,41 @@ groupbox:not(:has(moz-card)) {
   border: none !important;
 }
 
-/* strip background of update box */
-.info-box-container {
-  background-color: transparent !important;
-}
-
-/* hide the default browser message card (couldn't figure out how to make it transparent)*/
-moz-card:has(moz-fieldset[data-l10n-id="home-default-browser-title"]),
-moz-card:has(#isDefaultPane),
-moz-card:has(#isNotDefaultPane) {
-  display: none !important;
-}
-
-/*!--------------- Left Settings List & Appllications Card -------------------*/
-richlistbox,
-#handlersView {
-  background-color: rgba(0, 0, 0, 0.2) !important;
-  border-radius: 10px !important;
-  border: none !important;
-}
-
-richlistitem[selected="true"] {
-  background-color: rgba(0, 0, 0, 0.4) !important;
-  color: rgba(255, 255, 255) !important;
-}
-
-richlistitem:hover:not([selected="true"]) {
-  background-color: rgba(255, 255, 255, 0.05) !important;
-}
-
-#handlersViewHeader,
-treecol {
-  background-color: rgba(0, 0, 0, 0.2) !important;
-  border: none !important;
-}
-
-/* settings menulist specific */
-#categories richlistitem {
-  background-color: transparent !important;
-  border-radius: 8px !important;
-  margin: 9px 9px !important;
-}
-
-#categories richlistitem[selected="true"] {
-  background-color: rgba(0, 0, 0, 0.5) !important;
-}
-
-#categories richlistitem:hover:not([selected="true"]) {
-  background-color: rgba(255, 255, 255, 0.05) !important;
-}
-
-/* sidebar footer links (Extensions/Themes/Help) */
-.sidebar-footer-link {
-  background-color: rgba(0, 0, 0, 0.35) !important;
-  border: none !important;
-  border-radius: 8px !important;
-  margin: 4px 9px !important;
-  padding: 8px !important;
-  text-decoration: none !important;
-}
-
-.sidebar-footer-link:hover {
-  background-color: rgba(0, 0, 0, 0.5) !important;
-}
-
-/*!----------------------- Smaller Items in the Page -------------------------*/
 /* inputs and searchbars */
 input#input.with-icon {
   background-color: rgba(0, 0, 0, 0.5) !important;
   border: none !important;
   border-radius: 8px !important;
 }
-
-input#input.with-icon:focus {
-  outline: 2px solid rgba(255, 255, 255, 0.2) !important;
+&:focus {
+  outline: 2px solid rgba(100, 100, 100, 0.2) !important;
 }
 
 /* buttons, dropdown menus and input boxes */
-@-moz-document url-prefix("about:preferences"), url-prefix("about:addons"), url-prefix("about:zen-settings") {
+@-moz-document url-prefix("about:preferences"), url-prefix("about:addons") {
   menulist,
   .select-wrapper,
-  button:not(.button-link):not(.toggle-button):not([id="input"]):not(.panel-trigger):not(.category):not([role="menuitem"]) {
+  .picker-item.image-item,
+  button:not(.button-link):not(.toggle-button):not([id="input"]):not(.panel-trigger):not(.category):not([role="menuitem"]):not([role="tab"]) {
     background-color: rgba(0, 0, 0, 0.35) !important;
     border-radius: 8px !important;
     padding: 4px 8px !important;
     border: none !important;
   }
-}
 
-button:hover:not(.toggle-button):not([id="input"]):not(.panel-trigger),
-moz-button::part(button):hover {
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  button:hover:not(.toggle-button):not([id="input"]):not(.panel-trigger),
+  moz-button::part(button):hover,
+  .picker-item:hover,
+  .image-item:hover {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
+
+  button[role="tab"][selected=""],
+  button[role="tab"][aria-selected="true"],
+  .picker-item.image-item[checked=""],
+  .picker-item.image-item[aria-checked="true"] {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
 }
 
 /*!----------------- Other settings Pages --------------------*/
@@ -122,7 +85,6 @@ moz-button::part(button):hover {
   table,
   #toolbar,
   .action-box,
-  .sticky-container,
   .main-heading,
   .main-search {
     background-color: transparent !important;
