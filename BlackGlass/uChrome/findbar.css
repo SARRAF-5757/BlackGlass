@@ -4,7 +4,7 @@ findbar {
 
   width: 500px !important;
   height: 80px !important;
-  top: 10px !important;
+  bottom: 10px !important;
   right: 10px !important;
   left: auto !important;
 

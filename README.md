@@ -1,22 +1,22 @@
 ## Just Pleasant Round Glassiness
 
-![main](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/BlackGlass.png?raw=true)
+![main](./.github/readme-images/BlackGlass.png)
 
 ## Nicer PDF Viewer
 
-![pdf image](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/BG%20PDF.png?raw=true)
+![pdf image](./.github/readme-images/BG_PDF.png)
 
 ## Transparent Findbar
 
-![findbar image](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/BG%20Findbar.png?raw=true)
+![findbar image](./.github/readme-images/BG_Findbar.png)
 
 ## Clean Searchbar
 
-![searchbar image](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/BG%20SearchBar.png?raw=true)
+![searchbar image](./.github/readme-images/BG_SearchBar.png)
 
 ## Transparent settings
 
-![Transparent Settings Image](https://github.com/SARRAF-5757/BlackGlass/blob/main/Images/Transparent%20Settings.png?raw=true)
+![Transparent Settings Image](./.github/readme-images/Transparent_Settings.png)
 
 # Why?
 
