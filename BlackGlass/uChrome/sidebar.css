@@ -1,6 +1,6 @@
 /* Auto hide sidebar top buttons */
 #zen-sidebar-top-buttons {
-  transition: all 0.2s ease-in-out !important;
+  transition: margin-top 0.2s ease-in-out !important;
   margin-top: 0 !important;
   padding-top: 4px !important;
 }
@@ -17,7 +17,8 @@
 }
 
 /* reveal on hovering the searchbar as well */
-body:has(#urlbar-container:hover) #zen-sidebar-top-buttons {
+#navigator-toolbox:has(#urlbar-container:hover) #zen-sidebar-top-buttons {
   margin-top: 0 !important;
 }
+
 

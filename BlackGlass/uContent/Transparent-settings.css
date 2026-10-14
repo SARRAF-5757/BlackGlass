@@ -1,59 +1,61 @@
-/*!------------------ General Background Transparency -------------------*/
-:root {
-  --zen-colors-tertiary: transparent !important;
-  --zen-settings-secondary-background: transparent !important;
-}
+/* Scope all settings styling exclusively to about: pages */
+@-moz-document url-prefix("about:preferences"), url-prefix("about:addons"), url-prefix("about:config"), url-prefix("about:support"), url-prefix("about:profiles") {
+  /*!------------------ General Background Transparency -------------------*/
+  :root {
+    --zen-colors-tertiary: transparent !important;
+    --zen-settings-secondary-background: transparent !important;
+  }
 
-#preferences-root,
-#search-container,
-.sticky-container,
-.info-box-container,
-.container {
-  background-color: transparent !important;
-  border: none !important;
-}
+  #preferences-root,
+  #search-container,
+  .sticky-container,
+  .info-box-container,
+  .container {
+    background-color: transparent !important;
+    border: none !important;
+  }
 
-/*!------------------------------ Cleanup -------------------------------*/
+  /*!------------------------------ Cleanup -------------------------------*/
 
-/* hide ugly blue card and useless text shown by container tab */
-.extension-controlled-message-bar {
-  display: none !important;
-}
+  /* hide ugly blue card and useless text shown by container tab */
+  .extension-controlled-message-bar {
+    display: none !important;
+  }
 
-/* remove the white divider line above extensions and themes */
-.primary-nav-group + hr,
-#secondary-nav-group ~ hr,
-hr {
-  display: none !important;
-}
+  /* remove the white divider line above extensions and themes */
+  .primary-nav-group + hr,
+  #secondary-nav-group ~ hr,
+  hr {
+    display: none !important;
+  }
 
-/*!----------------------------- Styling --------------------------------*/
-/* card-like backgrounds*/
-moz-card,
-groupbox:not(:has(moz-card)),
-.primary-nav-group,
-.sidebar-footer-link,
-.page-nav-heading-wrapper,
-.moz-page-nav-link {
-  background-color: rgba(0, 0, 0, 0.35) !important;
-  border-radius: 14px !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
-  padding: 12px !important;
-  border: none !important;
-}
+  /*!----------------------------- Styling --------------------------------*/
+  /* card-like backgrounds*/
+  moz-card,
+  groupbox:not(:has(moz-card)),
+  .primary-nav-group,
+  .sidebar-footer-link,
+  .page-nav-heading-wrapper,
+  .moz-page-nav-link {
+    background-color: rgba(0, 0, 0, 0.35) !important;
+    border-radius: 14px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+    padding: 12px !important;
+    border: none !important;
+  }
 
-/* inputs and searchbars */
-input#input.with-icon {
-  background-color: rgba(0, 0, 0, 0.5) !important;
-  border: none !important;
-  border-radius: 8px !important;
-}
-&:focus {
-  outline: 2px solid rgba(100, 100, 100, 0.2) !important;
-}
+  /* inputs and searchbars */
+  input#input.with-icon {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border: none !important;
+    border-radius: 8px !important;
 
-/* buttons, dropdown menus and input boxes */
-@-moz-document url-prefix("about:preferences"), url-prefix("about:addons") {
+    &:focus {
+      outline: 2px solid rgba(100, 100, 100, 0.2) !important;
+    }
+  }
+
+  /* buttons, dropdown menus and input boxes */
   menulist,
   .select-wrapper,
   .picker-item.image-item,

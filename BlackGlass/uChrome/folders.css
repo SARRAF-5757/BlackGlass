@@ -55,32 +55,27 @@ zen-folder::before {
 }
 
 /* Trigger: Expanded, Selected, or Active */
-:is(zen-folder):has(> .tab-group-label-container label[aria-expanded="true"], [selected="true"], [folder-active="true"]) {
+:is(zen-folder):has(> .tab-group-label-container label[aria-expanded="true"], .tabbrowser-tab[selected="true"], [folder-active="true"]) {
   padding: 2px !important;
   border-radius: 16px;
   margin: 2px !important;
 }
 
 /* Specific Margin for Nested Subfolders */
-zen-folder zen-folder:has(> .tab-group-label-container label[aria-expanded="true"], [selected="true"], [folder-active="true"]) {
+zen-folder zen-folder:has(> .tab-group-label-container label[aria-expanded="true"], .tabbrowser-tab[selected="true"], [folder-active="true"]) {
   margin-left: 18px !important;
 }
 
 /* ------------------- Background Visibility ------------------- */
 
 /* Show background for Top-Level folders in any active state */
-zen-folder:not(zen-folder zen-folder):has(> .tab-group-label-container label[aria-expanded="true"], [selected="true"], [folder-active="true"])::before {
+zen-folder:not(zen-folder zen-folder):has(> .tab-group-label-container label[aria-expanded="true"], .tabbrowser-tab[selected="true"], [folder-active="true"])::before {
   opacity: 1 !important;
 }
 
 /* Show background for Subfolders ONLY when expanded */
 zen-folder zen-folder:has(> .tab-group-label-container label[aria-expanded="true"])::before {
   opacity: 1 !important;
-}
-
-/* Ensure background is hidden for subfolders if only selected/active but NOT expanded */
-zen-folder zen-folder:not(:has(> .tab-group-label-container label[aria-expanded="true"])):has([selected="true"], [folder-active="true"])::before {
-  opacity: 0 !important;
 }
 
 /* ------------------- Pinned Tabs in Folders ------------------- */
@@ -106,11 +101,11 @@ zen-folder .tabbrowser-tab[pinned][selected="true"] .tab-background {
 /* ------------------- Folder Button States ------------------- */
 
 /* Active / Selected / Expanded indicator for the button itself */
-zen-folder:has(> .tab-group-label-container label[aria-expanded="true"], [selected="true"], [folder-active="true"]) .tab-group-label-container::before {
+zen-folder:has(> .tab-group-label-container label[aria-expanded="true"], .tabbrowser-tab[selected="true"], [folder-active="true"]) .tab-group-label-container::before {
   background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 /* Hover override for the active button */
-zen-folder:has(> .tab-group-label-container label[aria-expanded="true"], [selected="true"], [folder-active="true"]) .tab-group-label-container:hover::before {
+zen-folder:has(> .tab-group-label-container label[aria-expanded="true"], .tabbrowser-tab[selected="true"], [folder-active="true"]) .tab-group-label-container:hover::before {
   background-color: rgba(0, 0, 0, 0.45) !important;
 }

@@ -15,11 +15,8 @@ findbar {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55) !important;
   padding-left: 5px !important;
   transition:
-    bottom 0.5s ease,
-    opacity 0.5s ease,
-    border-radius 0.5s ease,
-    height 0.5s ease,
-    width 0.5s ease !important;
+    bottom 0.3s ease,
+    opacity 0.3s ease !important;
 
   & .findbar-container {
     display: flex !important;
