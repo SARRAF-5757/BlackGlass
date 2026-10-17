@@ -1,7 +1,7 @@
 @import "BlackGlass/uChrome/extension-icons.css";
-@import "BlackGlass/uChrome/sidebar.css";
-@import "BlackGlass/uChrome/searchbar.css";
-@import "BlackGlass/uChrome/findbar.css";
-@import "BlackGlass/uChrome/folders.css";
 @import "BlackGlass/uChrome/tabs.css";
-@import "BlackGlass/uChrome/glance.css";
+ @import "BlackGlass/uChrome/folders.css"; 
+/* @import "BlackGlass/uChrome/sidebar.css"; */
+@import "BlackGlass/uChrome/searchbar.css";
+ @import "BlackGlass/uChrome/findbar.css"; 
+/*@import "BlackGlass/uChrome/glance.css";*/

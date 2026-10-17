@@ -57,27 +57,170 @@
 
   /* buttons, dropdown menus and input boxes */
   menulist,
+  select,
+  select#input,
   .select-wrapper,
+  moz-select,
   .picker-item.image-item,
-  button:not(.button-link):not(.toggle-button):not([id="input"]):not(.panel-trigger):not(.category):not([role="menuitem"]):not([role="tab"]) {
+  button:not(.button-link, .toggle-button, [id="input"], .panel-trigger, .category, [role="menuitem"], [role="tab"]) {
     background-color: rgba(0, 0, 0, 0.35) !important;
     border-radius: 8px !important;
     padding: 4px 8px !important;
     border: none !important;
+    color: #ffffff !important;
+    transition: background-color 0.15s ease !important;
   }
 
-  button:hover:not(.toggle-button):not([id="input"]):not(.panel-trigger),
+  .select-wrapper select,
+  .select-wrapper select#input {
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 8px !important;
+  }
+
+  select option,
+  menulist menupopup menuitem {
+    background-color: #222226 !important;
+    color: #ffffff !important;
+  }
+
+  /* Sine Marketplace buttons & Sine buttons */
+  button.sineMarketplaceItemButton,
+  .sineMarketplaceItemButton,
+  button.auto-update-toggle,
+  .auto-update-toggle,
+  button[class*="sine"],
+  [class*="sine"] button,
+  button[id*="sine"],
+  [id*="sine"] button {
+    background-color: rgba(0, 0, 0, 0.35) !important;
+    border-radius: 8px !important;
+    border: none !important;
+    color: #ffffff !important;
+    transition: background-color 0.15s ease !important;
+  }
+
+  button.sineMarketplaceItemButton *,
+  .sineMarketplaceItemButton * {
+    color: #ffffff !important;
+  }
+
+  /* Sine Auto-update toggle buttons (white text & fix repeating icons) */
+  button.auto-update-toggle,
+  .auto-update-toggle {
+    color: #ffffff !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    mask-repeat: no-repeat !important;
+    mask-position: center !important;
+    -webkit-mask-repeat: no-repeat !important;
+    -webkit-mask-position: center !important;
+  }
+
+  button.auto-update-toggle *,
+  .auto-update-toggle *,
+  button.auto-update-toggle span,
+  .auto-update-toggle span,
+  button.auto-update-toggle label,
+  .auto-update-toggle label,
+  button.auto-update-toggle .button-text,
+  .auto-update-toggle .button-text {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+  }
+
+  button.auto-update-toggle image,
+  .auto-update-toggle image,
+  button.auto-update-toggle .button-icon,
+  .auto-update-toggle .button-icon,
+  button.auto-update-toggle::before,
+  .auto-update-toggle::before,
+  button.auto-update-toggle::after,
+  .auto-update-toggle::after {
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    mask-repeat: no-repeat !important;
+    mask-position: center !important;
+    -webkit-mask-repeat: no-repeat !important;
+    -webkit-mask-position: center !important;
+  }
+
+  /* moz-button transparency & rounded corners */
+  moz-button:not(:hover),
+  moz-button button#main-button:not(:hover) {
+    --button-background-color: transparent !important;
+    --button-background-color-default: transparent !important;
+    --button-background-color-ghost: transparent !important;
+    background: transparent !important;
+    background-color: transparent !important;
+    border-radius: 8px !important;
+    border: none !important;
+  }
+
+  moz-button:not(:hover)::part(button),
+  moz-button:not(:hover) .button-background,
+  span[part="button"]:not(:hover),
+  span.button-background:not(:hover) {
+    background: transparent !important;
+    background-color: transparent !important;
+    border-radius: 8px !important;
+    transition: background-color 0.15s ease !important;
+  }
+
+  moz-button,
+  moz-button button#main-button {
+    border-radius: 8px !important;
+    border: none !important;
+  }
+
+  /* Hover state: noticeably more transparent black with rounded corners */
+  button:not(.button-link, .toggle-button, [id="input"], .panel-trigger, .category, [role="menuitem"], [role="tab"]):hover,
+  button:not(.button-link):not(.toggle-button):not([id="input"]):not(.panel-trigger):not(.category):not([role="menuitem"]):not([role="tab"]):hover,
+  button:hover:not(.button-link, .toggle-button, [id="input"], .panel-trigger, .category, [role="menuitem"], [role="tab"]),
+  select:hover,
+  select#input:hover,
+  menulist:hover,
+  .select-wrapper:hover,
+  moz-select:hover,
+  moz-select::part(select):hover,
+  moz-select:hover::part(select),
+  moz-button:hover::part(button),
   moz-button::part(button):hover,
+  moz-button:hover .button-background,
+  span[part="button"]:hover,
+  span.button-background:hover,
+  span.button-background.labelled:hover,
+  moz-button:hover span[part="button"],
+  button.sineMarketplaceItemButton:hover,
+  .sineMarketplaceItemButton:hover,
+  button.auto-update-toggle:hover,
+  .auto-update-toggle:hover,
+  button[class*="sine"]:hover,
+  [class*="sine"] button:hover,
+  button[id*="sine"]:hover,
+  [id*="sine"] button:hover,
+  #sineMods button:hover,
+  #sineMarketplace button:hover,
   .picker-item:hover,
   .image-item:hover {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background: rgba(0, 0, 0, 0.08) !important;
+    background-color: rgba(0, 0, 0, 0.08) !important;
+    border-radius: 8px !important;
+  }
+
+  .select-wrapper:hover select,
+  .select-wrapper:hover select#input {
+    background: transparent !important;
+    background-color: transparent !important;
+    border-radius: 8px !important;
   }
 
   button[role="tab"][selected=""],
   button[role="tab"][aria-selected="true"],
   .picker-item.image-item[checked=""],
   .picker-item.image-item[aria-checked="true"] {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: rgba(0, 0, 0, 0.08) !important;
+    border-radius: 8px !important;
   }
 }
 
